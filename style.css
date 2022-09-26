@@ -106,7 +106,7 @@ button {
     background: #e5e7eb;
     display: flex;
     flex-direction: column;
-    padding: 30px 20%;
+    padding: 5% 20%;
     align-self: stretch;
     justify-content: center;
 }
@@ -135,6 +135,8 @@ button {
     text-align: center;
     gap: 20px;
 }
-.info {
-    /* flex: 0 1 0; */
+
+.info > img {
+    border: 5px solid #ffc1ec;
+    border-radius: 16px;
 }
