@@ -12,10 +12,42 @@ ul {
 }
 
 a {
-    color: #f9faf8;
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .navi {
     display: flex;
+    background: #1f2937;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.navi:first-child {
+    font-size: 24px;
+    color: #f9faf8;
+    flex: 1;
+    
+}
+
+.link {
+    display: flex;
+    gap: 1em;
+}
+
+.header {
+    display: flex;
+    background: #1f2937;
+    padding: 0px 100px;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.sub-header div:first-child {
+    color: #f9faf8;
+}
+
+.sub-header {
+    color: #e5e7eb;
 }
