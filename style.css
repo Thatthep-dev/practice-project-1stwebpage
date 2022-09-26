@@ -3,6 +3,7 @@ body {
     margin: 0;
     min-height: 100vh;
     background: darkgray;
+    color: #e5e7eb;
 }
 
 ul {
@@ -28,7 +29,6 @@ a {
     font-size: 24px;
     color: #f9faf8;
     flex: 1;
-    
 }
 
 .link {
@@ -39,15 +39,44 @@ a {
 .header {
     display: flex;
     background: #1f2937;
-    padding: 0px 100px;
+    padding: 50px 100px;
     justify-content: space-between;
     gap: 2em;
 }
 
 .sub-header div:first-child {
     color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 20px;
 }
 
 .sub-header {
     color: #e5e7eb;
+    min-width: 300px;
+    max-width: 600px;
+    flex: 1;
+}
+
+button {
+    background-color: #3882f6; /* Green */
+    border: none;
+    color: #f9faf8;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+
+.main-img {
+    display: flex;
+    flex: 1 1 0;
+}
+.main-img img {
+    max-width: 100%;
+    max-height: 100%;
+    align-self: center;
 }
