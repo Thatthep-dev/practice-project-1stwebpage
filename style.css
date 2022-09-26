@@ -4,6 +4,7 @@ body {
     min-height: 100vh;
     background: darkgray;
     color: #e5e7eb;
+    box-sizing: border-box;
 }
 
 ul {
@@ -73,6 +74,7 @@ button {
 
 .main-img {
     display: flex;
+    justify-content: flex-end;
     flex: 1 1 0;
     max-height: 400px;
 }
@@ -106,7 +108,7 @@ button {
     background: #e5e7eb;
     display: flex;
     flex-direction: column;
-    padding: 5% 20%;
+    padding: 5% 25%;
     align-self: stretch;
     justify-content: center;
 }
@@ -129,7 +131,7 @@ button {
 .sub-content {
     display: flex;
     flex-wrap: wrap;
-    padding: 30px 20%;
+    padding: 30px 25%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -139,4 +141,39 @@ button {
 .info > img {
     border: 5px solid #ffc1ec;
     border-radius: 16px;
+}
+
+.signup-zone {
+    display: flex;
+    width: 65%;
+    padding: 20px 0;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    color: #f9faf8;
+    background: #3882f6;
+    border-radius: 8px;
+    margin: 50px;
+    gap: 50px;
+}
+
+.signup-zone>button {
+    margin: 0;
+    border: 2px solid white;
+}
+
+.sub-text-su {
+    font-size: 15px;
+    font-weight: 300;
+    color: #e5e7eb
+}
+
+.footer {
+    background: #1f2937;
+    width: 100%;
+    color: #e5e7eb;
+    font-size: 12px;
+    font-weight: lighter;
+    padding: 20px 0;
+    text-align: center;
 }
